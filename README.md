@@ -48,5 +48,5 @@
 [facebook]: https://facebook.com/student.shihab
 [fiverr]: https://fiverr.com/shihabdesigns
 [freelancer]: https://fiverr.com/shihabsdesigns
-[Upwork]: https://fiverr.com/shihabasflutter
+[Upwork]: https://www.upwork.com/freelancers/~01571960a2310eca13
 

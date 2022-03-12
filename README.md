@@ -4,7 +4,7 @@
 
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to collaborate with other content creators
-- 🥅 2021 Goals: Contribute more to Open Source projects
+- 🥅 2022 Goals: Contribute more to Open Source projects and becoume an expert fullstack dev
 - ⚡ Fun fact: I love to create and design new things everyday.
 
 

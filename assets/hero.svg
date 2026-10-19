@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 290" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#a78bfa" />
+    </linearGradient>
+
+    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.45" />
+      <stop offset="50%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.35" />
+    </linearGradient>
+
+    <radialGradient id="glowCyan" cx="15%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="#0ea5e9" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#0ea5e9" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowEmerald" cx="85%" cy="80%" r="45%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.14" />
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
+    </radialGradient>
+
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#1e293b" stroke-width="0.7" stroke-opacity="0.55" />
+    </pattern>
+
+    <style>
+      .font-sans {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+      .font-mono {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      }
+      @keyframes pulse {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.35; }
+      }
+      .pulse-dot {
+        animation: pulse 2.4s infinite ease-in-out;
+      }
+    </style>
+  </defs>
+
+  <!-- Main Card Background -->
+  <rect x="1" y="1" width="898" height="288" rx="16" fill="url(#bgGrad)" />
+  <rect x="1" y="1" width="898" height="288" rx="16" fill="url(#grid)" />
+  <rect x="1" y="1" width="898" height="288" rx="16" fill="url(#glowCyan)" />
+  <rect x="1" y="1" width="898" height="288" rx="16" fill="url(#glowEmerald)" />
+  <rect x="1" y="1" width="898" height="288" rx="16" fill="none" stroke="url(#borderGrad)" stroke-width="1.5" />
+
+  <!-- Top Accent Line -->
+  <rect x="36" y="1" width="180" height="2.5" rx="1.25" fill="url(#accentGrad)" />
+
+  <!-- Status Pill -->
+  <g transform="translate(36, 26)">
+    <rect x="0" y="0" width="296" height="26" rx="13" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+    <circle cx="14" cy="13" r="4" fill="#10b981" class="pulse-dot" />
+    <text x="26" y="16.5" class="font-mono" font-size="10.5" font-weight="600" fill="#cbd5e1" letter-spacing="0.4">AVAILABLE FOR SELECT PROJECTS • UTC+6</text>
+  </g>
+
+  <!-- Left Hero Text -->
+  <g transform="translate(36, 88)">
+    <text x="0" y="0" class="font-sans" font-size="34" font-weight="800" fill="#f8fafc" letter-spacing="-0.5">Shihab Uddin</text>
+    <text x="0" y="27" class="font-sans" font-size="14.5" font-weight="600" fill="#38bdf8" letter-spacing="0.1">Full-Stack &amp; Mobile Engineer  •  AI &amp; Automation Architect</text>
+    <text x="0" y="54" class="font-sans" font-size="12.5" fill="#94a3b8">5+ years shipping cross-platform Flutter apps, Next.js &amp; Django web systems,</text>
+    <text x="0" y="73" class="font-sans" font-size="12.5" fill="#94a3b8">and autonomous AI pipelines built for real-world scale and reliability.</text>
+  </g>
+
+  <!-- Right Mini Terminal Window -->
+  <g transform="translate(558, 24)">
+    <rect x="0" y="0" width="306" height="142" rx="10" fill="#090d16" stroke="#1e293b" stroke-width="1.2" />
+    <rect x="0" y="0" width="306" height="26" rx="10" fill="#111827" />
+    <rect x="0" y="16" width="306" height="10" fill="#111827" />
+    <line x1="0" y1="26" x2="306" y2="26" stroke="#1e293b" stroke-width="1" />
+    <!-- Window Dots -->
+    <circle cx="14" cy="13" r="4.5" fill="#ef4444" fill-opacity="0.85" />
+    <circle cx="28" cy="13" r="4.5" fill="#f59e0b" fill-opacity="0.85" />
+    <circle cx="42" cy="13" r="4.5" fill="#10b981" fill-opacity="0.85" />
+    <text x="153" y="16.5" text-anchor="middle" class="font-mono" font-size="10.5" fill="#64748b">shihab@macbook-pro ~ zsh</text>
+
+    <!-- Terminal Content -->
+    <text x="14" y="46" class="font-mono" font-size="11.5" fill="#34d399">❯ <tspan fill="#e2e8f0">shihab --overview</tspan></text>
+    <text x="14" y="68" class="font-mono" font-size="11" fill="#64748b">mobile  :</text>
+    <text x="82" y="68" class="font-mono" font-size="11" fill="#38bdf8">Flutter • Dart • Clean Arch</text>
+    <text x="14" y="88" class="font-mono" font-size="11" fill="#64748b">web     :</text>
+    <text x="82" y="88" class="font-mono" font-size="11" fill="#34d399">Next.js • Astro • Django</text>
+    <text x="14" y="108" class="font-mono" font-size="11" fill="#64748b">ai-ops  :</text>
+    <text x="82" y="108" class="font-mono" font-size="11" fill="#a78bfa">LLMs • Playwright • Python</text>
+    <text x="14" y="128" class="font-mono" font-size="11" fill="#64748b">cloud   :</text>
+    <text x="82" y="128" class="font-mono" font-size="11" fill="#fbbf24">Docker • Cloudflare • Supabase</text>
+  </g>
+
+  <!-- Bottom 4 Metric Cards -->
+  <!-- Card 1 -->
+  <g transform="translate(36, 192)">
+    <rect x="0" y="0" width="196" height="68" rx="10" fill="#111827" fill-opacity="0.85" stroke="#1e293b" stroke-width="1.2" />
+    <rect x="0" y="16" width="3" height="36" rx="1.5" fill="#38bdf8" />
+    <text x="18" y="31" class="font-sans" font-size="22" font-weight="800" fill="#f8fafc">40+</text>
+    <text x="18" y="51" class="font-sans" font-size="12" font-weight="500" fill="#94a3b8">Flutter Apps Shipped</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g transform="translate(246, 192)">
+    <rect x="0" y="0" width="196" height="68" rx="10" fill="#111827" fill-opacity="0.85" stroke="#1e293b" stroke-width="1.2" />
+    <rect x="0" y="16" width="3" height="36" rx="1.5" fill="#34d399" />
+    <text x="18" y="31" class="font-sans" font-size="22" font-weight="800" fill="#f8fafc">25+</text>
+    <text x="18" y="51" class="font-sans" font-size="12" font-weight="500" fill="#94a3b8">Full-Stack Web Systems</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g transform="translate(456, 192)">
+    <rect x="0" y="0" width="196" height="68" rx="10" fill="#111827" fill-opacity="0.85" stroke="#1e293b" stroke-width="1.2" />
+    <rect x="0" y="16" width="3" height="36" rx="1.5" fill="#a78bfa" />
+    <text x="18" y="31" class="font-sans" font-size="22" font-weight="800" fill="#f8fafc">100+</text>
+    <text x="18" y="51" class="font-sans" font-size="12" font-weight="500" fill="#94a3b8">AI-Automated Sites &amp; Bots</text>
+  </g>
+
+  <!-- Card 4 -->
+  <g transform="translate(666, 192)">
+    <rect x="0" y="0" width="198" height="68" rx="10" fill="#111827" fill-opacity="0.85" stroke="#1e293b" stroke-width="1.2" />
+    <rect x="0" y="16" width="3" height="36" rx="1.5" fill="#fbbf24" />
+    <text x="18" y="31" class="font-sans" font-size="22" font-weight="800" fill="#f8fafc">5+ Yrs</text>
+    <text x="18" y="51" class="font-sans" font-size="12" font-weight="500" fill="#94a3b8">Production Engineering</text>
+  </g>
+</svg>

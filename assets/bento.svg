@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 250" width="100%" height="100%">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#090d16" />
+    </linearGradient>
+    <style>
+      .font-sans {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+      .font-mono {
+        font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+      }
+    </style>
+  </defs>
+
+  <!-- ==================== CARD 1: MOBILE & DESKTOP ==================== -->
+  <g transform="translate(1, 1)">
+    <rect x="0" y="0" width="288" height="248" rx="14" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.4" />
+    <rect x="20" y="0" width="90" height="2.5" rx="1.25" fill="#38bdf8" />
+
+    <!-- Icon Box -->
+    <rect x="20" y="20" width="38" height="38" rx="9" fill="#0c263b" stroke="#0284c7" stroke-width="1" stroke-opacity="0.5" />
+    <rect x="33" y="27" width="12" height="24" rx="2.5" fill="none" stroke="#38bdf8" stroke-width="1.8" />
+    <circle cx="39" cy="47.5" r="1" fill="#38bdf8" />
+
+    <!-- Title & Subtitle -->
+    <text x="68" y="36" class="font-sans" font-size="15.5" font-weight="700" fill="#f8fafc">Mobile &amp; Desktop</text>
+    <text x="68" y="53" class="font-mono" font-size="11" font-weight="600" fill="#38bdf8">Flutter • Dart • Native</text>
+
+    <line x1="20" y1="72" x2="268" y2="72" stroke="#1e293b" stroke-width="1" />
+
+    <!-- Bullet Points -->
+    <circle cx="24" cy="95" r="2.5" fill="#38bdf8" />
+    <text x="34" y="99" class="font-sans" font-size="11.5" fill="#cbd5e1">40+ apps across iOS, Android &amp; macOS</text>
+
+    <circle cx="24" cy="121" r="2.5" fill="#38bdf8" />
+    <text x="34" y="125" class="font-sans" font-size="11.5" fill="#cbd5e1">Clean Arch (BLoC, Riverpod, fpdart)</text>
+
+    <circle cx="24" cy="147" r="2.5" fill="#38bdf8" />
+    <text x="34" y="151" class="font-sans" font-size="11.5" fill="#cbd5e1">Real-time streaming (Agora, SVGA)</text>
+
+    <circle cx="24" cy="173" r="2.5" fill="#38bdf8" />
+    <text x="34" y="177" class="font-sans" font-size="11.5" fill="#cbd5e1">Firebase, GenAI &amp; offline-first sync</text>
+
+    <!-- Bottom Tech Pills -->
+    <g transform="translate(20, 202)">
+      <rect x="0" y="0" width="54" height="24" rx="6" fill="#111827" stroke="#1e293b" stroke-width="1" />
+      <text x="27" y="15.5" text-anchor="middle" class="font-mono" font-size="10.5" fill="#38bdf8">Flutter</text>
+
+      <rect x="60" y="0" width="44" height="24" rx="6" fill="#111827" stroke="#1e293b" stroke-width="1" />
+      <text x="82" y="15.5" text-anchor="middle" class="font-mono" font-size="10.5" fill="#38bdf8">BLoC</text>
+
+      <rect x="110" y="0" width="64" height="24" rx="6" fill="#111827" stroke="#1e293b" stroke-width="1" />
+      <text x="142" y="15.5" text-anchor="middle" class="font-mono" font-size="10.5" fill="#38bdf8">Riverpod</text>
+
+      <rect x="180" y="0" width="64" height="24" rx="6" fill="#111827" stroke="#1e293b" stroke-width="1" />
+      <text x="212" y="15.5" text-anchor="middle" class="font-mono" font-size="10.5" fill="#38bdf8">Firebase</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 2: FULL-STACK WEB & CLOUD ==================== -->
+  <g transform="translate(306, 1)">
+    <rect x="0" y="0" width="288" height="248" rx="14" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.4" />
+    <rect x="20" y="0" width="90" height="2.5" rx="1.25" fill="#34d399" />
+
+    <!-- Icon Box -->
+    <rect x="20" y="20" width="38" height="38" rx="9" fill="#062c24" stroke="#059669" stroke-width="1" stroke-opacity="0.5" />
+    <rect x="28" y="29" width="22" height="16" rx="2" fill="none" stroke="#34d399" stroke-width="1.8" />
+    <line x1="34" y1="49" x2="44" y2="49" stroke="#34d399" stroke-width="1.8" stroke-linecap="round" />
+
+    <!-- Title & Subtitle -->
+    <text x="68" y="36" class="font-sans" font-size="15.5" font-weight="700" fill="#f8fafc">Full-Stack Web &amp; Cloud</text>
+    <text x="68" y="53" class="font-mono" font-size="11" font-weight="600" fill="#34d399">Next.js • Django • Astro</text>
+
+    <line x1="20" y1="72" x2="268" y2="72" stroke="#1e293b" stroke-width="1" />
+
+    <!-- Bullet Points -->
+    <circle cx="24" cy="95" r="2.5" fill="#34d399" />
+    <text x="34" y="99" class="font-sans" font-size="11.5" fill="#cbd5e1">25+ web apps &amp; SaaS platforms built</text>
+
+    <circle cx="24" cy="121" r="2.5" fill="#34d399" />
+    <text x="34" y="125" class="font-sans" font-size="11.5" fill="#cbd5e1">Healthcare &amp; e-commerce (My-Pharma)</text>
+
+    <circle cx="24" cy="147" r="2.5" fill="#34d399" />
+    <text x="34" y="151" class="font-sans" font-size="11.5" fill="#cbd5e1">High-speed SSR &amp; Astro SSG engines</text>
+
+    <circle cx="24" cy="173" r="2.5" fill="#34d399" />
+    <text x="34" y="177" class="font-sans" font-size="11.5" fill="#cbd5e1">Docker, Dokploy &amp; Cloudflare Pages</text>
+
+    <!-- Bottom Tech Pills -->
+    <g transform="translate(20, 202)">
+      <rect x="0" y="0" width="56" height="24" rx="6" fill="#111827" stroke="#1e293b" stroke-width="1" />
+      <text x="28" y="15.5" text-anchor="middle" class="font-mono" font-size="10.5" fill="#34d399">Next.js</text>
+
+      <rect x="62" y="0" width="52" height="24" rx="6" fill="#111827" stroke="#1e293b" stroke-width="1" />
+      <text x="88" y="15.5" text-anchor="middle" class="font-mono" font-size="10.5" fill="#34d399">Django</text>
+
+      <rect x="120" y="0" width="48" height="24" rx="6" fill="#111827" stroke="#1e293b" stroke-width="1" />
+      <text x="144" y="15.5" text-anchor="middle" class="font-mono" font-size="10.5" fill="#34d399">Astro</text>
+
+      <rect x="174" y="0" width="70" height="24" rx="6" fill="#111827" stroke="#1e293b" stroke-width="1" />
+      <text x="209" y="15.5" text-anchor="middle" class="font-mono" font-size="10.5" fill="#34d399">Supabase</text>
+    </g>
+  </g>
+
+  <!-- ==================== CARD 3: AI AGENTS & AUTOMATION ==================== -->
+  <g transform="translate(611, 1)">
+    <rect x="0" y="0" width="288" height="248" rx="14" fill="url(#cardBg)" stroke="#1e293b" stroke-width="1.4" />
+    <rect x="20" y="0" width="90" height="2.5" rx="1.25" fill="#a78bfa" />
+
+    <!-- Icon Box -->
+    <rect x="20" y="20" width="38" height="38" rx="9" fill="#1e153a" stroke="#7c3aed" stroke-width="1" stroke-opacity="0.5" />
+    <path d="M 39 27 L 42 35 L 50 38 L 42 41 L 39 49 L 36 41 L 28 38 L 36 35 Z" fill="none" stroke="#a78bfa" stroke-width="1.7" stroke-linejoin="round" />
+
+    <!-- Title & Subtitle -->
+    <text x="68" y="36" class="font-sans" font-size="15.5" font-weight="700" fill="#f8fafc">AI &amp; Automation</text>
+    <text x="68" y="53" class="font-mono" font-size="11" font-weight="600" fill="#a78bfa">Python • LLMs • Pipelines</text>
+
+    <line x1="20" y1="72" x2="268" y2="72" stroke="#1e293b" stroke-width="1" />
+
+    <!-- Bullet Points -->
+    <circle cx="24" cy="95" r="2.5" fill="#a78bfa" />
+    <text x="34" y="99" class="font-sans" font-size="11.5" fill="#cbd5e1">Multi-stage AI website generators</text>
+
+    <circle cx="24" cy="121" r="2.5" fill="#a78bfa" />
+    <text x="34" y="125" class="font-sans" font-size="11.5" fill="#cbd5e1">DataForSEO, SerpAPI &amp; Firecrawl ops</text>
+
+    <circle cx="24" cy="147" r="2.5" fill="#a78bfa" />
+    <text x="34" y="151" class="font-sans" font-size="11.5" fill="#cbd5e1">Playwright QA gates &amp; auto DNS/SSL</text>
+
+    <circle cx="24" cy="173" r="2.5" fill="#a78bfa" />
+    <text x="34" y="177" class="font-sans" font-size="11.5" fill="#cbd5e1">Python video &amp; voice render engines</text>
+
+    <!-- Bottom Tech Pills -->
+    <g transform="translate(20, 202)">
+      <rect x="0" y="0" width="52" height="24" rx="6" fill="#111827" stroke="#1e293b" stroke-width="1" />
+      <text x="26" y="15.5" text-anchor="middle" class="font-mono" font-size="10.5" fill="#a78bfa">Python</text>
+
+      <rect x="58" y="0" width="44" height="24" rx="6" fill="#111827" stroke="#1e293b" stroke-width="1" />
+      <text x="80" y="15.5" text-anchor="middle" class="font-mono" font-size="10.5" fill="#a78bfa">LLMs</text>
+
+      <rect x="108" y="0" width="74" height="24" rx="6" fill="#111827" stroke="#1e293b" stroke-width="1" />
+      <text x="145" y="15.5" text-anchor="middle" class="font-mono" font-size="10.5" fill="#a78bfa">Playwright</text>
+
+      <rect x="188" y="0" width="56" height="24" rx="6" fill="#111827" stroke="#1e293b" stroke-width="1" />
+      <text x="216" y="15.5" text-anchor="middle" class="font-mono" font-size="10.5" fill="#a78bfa">FFmpeg</text>
+    </g>
+  </g>
+</svg>
